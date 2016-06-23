@@ -123,6 +123,7 @@ Public NotInheritable Class MainPage
             id = (id & Convert.ToString(" ")) + message.Id
             name = (name & Convert.ToString(" ")) + message.Name
             age = (age & Convert.ToString(" ")) + message.Age
+            ''4
         Next
 
         textBlock2.Text = Convert.ToString((Convert.ToString((Convert.ToString("ID: ") & id) + vbLf & "Name: ") & name) + vbLf & "Age: ") & age
